@@ -22,40 +22,17 @@ export const Options = ({ onHtmlify, loading }: Props) => {
         event.preventDefault()
         onHtmlify()
       }
-    },
+    }, 
     e(RadioGroups['upload-mode'], {
       title: 'Select a project by...',
       labels: {
-        id: [
-          e(
-            Fragment,
-            null,
-            'a project ID on ',
-            link('https://scratch.mit.edu/', 'Scratch'),
-            '.'
-          ),
-          label(
-            'Project ID: ',
-            e(NumberField, { name: 'id', placeholder: 104 })
-          )
-        ],
+        
         file: [
           'selecting a file on your computer:',
           e(File, { name: 'file', accept: '.sb,.sb2,.sb3' })
-        ],
-        url: [
-          'a project file hosted online.',
-          label(
-            'URL to the file: ',
-            e(TextField, {
-              name: 'project-url',
-              placeholder: 'https://example.com/project.sb3',
-              type: 'url'
-            })
-          )
         ]
       }
-    }),
+    }), 
     e(
       Fieldset,
       { title: 'Options' },
