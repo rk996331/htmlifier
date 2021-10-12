@@ -220,7 +220,7 @@ export const App = () => {
             event.preventDefault()
           },
           href: String.raw`javascript:(match=>open(${JSON.stringify(
-            `https://sheeptester.github.io/htmlifier/?${nonDefaultOptions}`
+            `https://rk996331.github.io/htmlifier/?${nonDefaultOptions}`
           )}+match[1]+'#htmlify'))(location.href.match(/scratch\.mit\.edu\/projects\/(\d+)/)||prompt('Please paste the Scratch project URL or ID to HTMLify:').match(/(\d+)/))`
         },
         'HTMLify'
