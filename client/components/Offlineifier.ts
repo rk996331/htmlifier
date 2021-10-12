@@ -17,6 +17,6 @@ export const Offlineifier = ({ offline, onOfflineify, loading }: Props) => {
           title:
             'Downloads an HTML file that can be opened and used in the browser without an internet connection.'
         },
-        'Download offline version'
+        'Work offline'
       )
 }
