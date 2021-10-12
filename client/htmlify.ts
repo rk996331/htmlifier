@@ -6,7 +6,7 @@ type LoggerWithError = (
   type: 'status' | 'progress' | 'error'
 ) => void
 
-export const htmlify = (
+export const BFS = (
   options: ConversionOptions,
   log?: LoggerWithError
 ): Promise<Blob | null> => {
