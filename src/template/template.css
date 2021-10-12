@@ -189,7 +189,7 @@ body,
   min-width: 3rem;
 }
 .show-monitor-box .large {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 100, 0, 0.6);
 }
 .large .monitor-label {
   display: none;
@@ -242,7 +242,7 @@ body,
 }
 .show-monitor-box .row-value {
   border-color: rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 100, 0, 0.5);
+  background-color: rgba(0, 10, 0, 0.5);
 }
 .slider input {
   display: block;
@@ -255,7 +255,7 @@ body,
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(33, 33, 33, 0.7);
+  background-color: rgba(33, 70, 33, 0.7);
 }
 .asking #asking-box {
   display: block;
