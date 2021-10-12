@@ -87,7 +87,7 @@ body,
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(100, 50, 10, 0.5);
+  background-color: rgba(10, 50, 10, 0.5);
   border-bottom-left-radius: 12px;
 }
 .buttons .button,
@@ -158,7 +158,7 @@ body,
 }
 .show-monitor-box .monitor {
   border-color: rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(10, 50, 0, 0.3);
 }
 .monitor-label {
   margin: 0 5px;
@@ -182,7 +182,7 @@ body,
 }
 .show-monitor-box .default .monitor-value,
 .show-monitor-box .slider .monitor-value {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(10, 30, 0, 0.5);
 }
 .large {
   padding: 0.1rem 0.25rem;
@@ -241,7 +241,7 @@ body,
   text-overflow: ellipsis;
 }
 .show-monitor-box .row-value {
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 50, 0.2);
   background-color: rgba(0, 10, 0, 0.5);
 }
 .slider input {
