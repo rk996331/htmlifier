@@ -10,14 +10,14 @@ html {
   scroll-padding-top: 120px;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #e041e0;
   color: white;
   margin: 0px;
   padding: 0px;
 }
 .offline::after {
-  content: 'Offline edition';
+  content: "Offline edition";
   position: fixed;
   bottom: 0;
   right: 0;
@@ -28,7 +28,7 @@ body {
   font-size: 0;
 }
 .bookmarklet-link::after {
-  content: 'Bookmarklet';
+  content: "Bookmarklet";
   font-size: 1rem;
 }
 #errors {
@@ -77,13 +77,13 @@ body {
   font-size: 0;
 }
 .footnote::after {
-  content: '[' counter(footnotes) ']';
+  content: "[" counter(footnotes) "]";
   counter-increment: footnotes;
   font-size: small;
 }
 
 code {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(13, 152, 194, 0.1);
   border-radius: 2px;
   padding: 0 5px;
 }
@@ -112,17 +112,17 @@ a:hover {
 }
 
 button,
-input[type='file'],
+input[type="file"],
 ::-webkit-file-upload-button {
   cursor: pointer;
 }
-input[type='submit'] {
+input[type="submit"] {
   font-size: 1.2em;
 }
-input[type='url'] {
+input[type="url"] {
   width: 250px;
 }
-input[type='number'] {
+input[type="number"] {
   width: 100px;
 }
 
@@ -142,7 +142,7 @@ input[type='number'] {
   color: #b93700;
   background-color: #f0f0b4;
   padding: 10px 0;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   height: 100px;
   resize: vertical;
   overflow: auto;
@@ -166,7 +166,7 @@ input[type='number'] {
 .header {
   font-size: 10px;
   position: sticky;
-  background-color: rgba(50, 50, 50, 0.7);
+  background-color: rgba(170, 96, 0, 0.7);
   top: 0px;
   color: rgba(255, 255, 255, 0.9);
   margin: 0px;
@@ -179,7 +179,7 @@ input[type='number'] {
 
 .mainarea {
   margin: 50px;
-  background-color: #19191e;
+  background-color: #3c5e61;
   color: #f0f0f0;
   padding: 25px;
   border-radius: 8px;
@@ -195,10 +195,10 @@ input[type='number'] {
   top: -85px;
   padding: 15px;
   float: right;
-  background-color: rgba(100, 250, 150, 0.5);
+  background-color: rgba(142, 158, 70, 0.5);
   border: 0px;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 90px;
   transition: background-color 0.25s, border-radius 0.25s;
   -webkit-backdrop-filter: blur(50px);
@@ -221,7 +221,7 @@ input[type='number'] {
   padding: 10px;
   border: solid rgba(255, 255, 255, 0.2) 1px;
   border-radius: 5px;
-  background-color: #19191e;
+  background-color: #1c6b6b;
   box-shadow: none;
   transition: box-shadow 0.25s, border 0.25s;
   margin: 1em 0;
@@ -259,5 +259,5 @@ input[type='number'] {
   width: 100%;
   height: 42.86vw;
   transition: filter 0.25s, -webkit-filter 0.1s;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(108, 109, 58, 0.9);
 }
